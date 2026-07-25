@@ -1,7 +1,67 @@
-# ESP32 Smart Bell Automation Controller
+ # Offline Smart Bell Automation System
 
-Production-style modular firmware for an ESP32 institutional bell controller with RTC fallback, NTP/browser sync, LittleFS JSON storage, role-based dashboard authentication, schedule profiles, holidays, logs, watchdog recovery, and async SSR relay control.
+Embedded Automation System using ESP32 for Educational Institutions
 
+---
+
+An embedded automation system that automates bell scheduling for schools and colleges using ESP32, DS3231 RTC, LittleFS, and a secure web dashboard.
+
+The system works completely offline while supporting browser-based configuration, holiday management, authentication, watchdog recovery, and automatic RTC synchronization.
+
+## Highlights
+
+✔ Completely Offline Operation
+
+✔ RTC Based Scheduling
+
+✔ Browser Dashboard
+
+✔ Role Based Authentication
+
+✔ Holiday Management
+
+✔ Automatic RTC Synchronization
+
+✔ LittleFS JSON Storage
+
+✔ Watchdog Recovery
+
+✔ Modular Firmware Architecture
+
+✔ SSR Relay Control
+
+## Hardware
+
+• ESP32 Dev Board
+
+• DS3231 RTC
+
+• SSR Relay Module
+
+• LCD Display
+
+• Power Supply
+
+• Bell Output
+## Software
+
+PlatformIO
+
+Arduino Framework
+
+C++
+
+HTML
+
+CSS
+
+JavaScript
+
+LittleFS
+
+Git
+
+GitHub
 ## Hardware Pins
 
 Edit `src/app_config.h` before deployment.
