@@ -1,0 +1,11 @@
+{
+  "activeProfileId": "regular",
+  "profiles": [
+    { "id": "regular", "name": "Regular", "locked": false },
+    { "id": "exam", "name": "Exam", "locked": false },
+    { "id": "half-day", "name": "Half-Day", "locked": false },
+    { "id": "weekend", "name": "Weekend", "locked": false },
+    { "id": "custom", "name": "Custom", "locked": false }
+  ]
+}
+

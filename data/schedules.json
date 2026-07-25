@@ -1,0 +1,35 @@
+{
+  "profiles": {
+    "regular": [
+      {
+        "time": "09:00",
+        "duration": 3000,
+        "repeatCount": 2,
+        "repeatInterval": 1000,
+        "enabled": true,
+        "label": "Morning Bell"
+      },
+      {
+        "time": "12:30",
+        "duration": 3000,
+        "repeatCount": 1,
+        "repeatInterval": 1000,
+        "enabled": true,
+        "label": "Lunch Bell"
+      },
+      {
+        "time": "16:00",
+        "duration": 3000,
+        "repeatCount": 2,
+        "repeatInterval": 1000,
+        "enabled": true,
+        "label": "Closing Bell"
+      }
+    ],
+    "exam": [],
+    "half-day": [],
+    "weekend": [],
+    "custom": []
+  }
+}
+

@@ -1,0 +1,11 @@
+{
+  "single": [
+    { "date": "2026-01-26", "label": "Republic Day" },
+    { "date": "2026-08-15", "label": "Independence Day" }
+  ],
+  "weekly": [0],
+  "ranges": [
+    { "start": "2026-05-01", "end": "2026-05-10", "label": "Summer Break" }
+  ]
+}
+

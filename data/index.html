@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Smart Bell</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main id="loginView" class="login">
+    <form id="loginForm" class="panel">
+      <h1>Smart Bell</h1>
+      <label>Username<input id="loginUser" autocomplete="username" value="admin"></label>
+      <label>Password<input id="loginPass" type="password" autocomplete="new-password" data-lpignore="true"></label>
+      <button type="submit">Login</button>
+      <p id="loginMsg" class="msg"></p>
+    </form>
+  </main>
+
+  <main id="appView" class="app hidden">
+    <aside class="nav">
+      <h1>Smart Bell</h1>
+      <button data-page="home" class="active">Home</button>
+      <button data-page="schedules">Schedules</button>
+      <button data-page="profiles">Profiles</button>
+      <button data-page="holidays">Holidays</button>
+      <button data-page="time">Time</button>
+      <button data-page="settings">Settings</button>
+      <button id="logoutBtn">Logout</button>
+    </aside>
+    <section class="content">
+      <div class="topbar">
+        <strong id="deviceName">Smart Bell Controller</strong>
+        <span id="roleBadge"></span>
+      </div>
+      <section id="home" class="page"></section>
+      <section id="schedules" class="page hidden"></section>
+      <section id="profiles" class="page hidden"></section>
+      <section id="holidays" class="page hidden"></section>
+      <section id="time" class="page hidden"></section>
+      <section id="settings" class="page hidden"></section>
+    </section>
+  </main>
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

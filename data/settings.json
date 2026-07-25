@@ -1,0 +1,20 @@
+{
+  "deviceName": "Smart Bell Controller",
+  "timezone": "IST",
+  "gmtOffsetSec": 19800,
+  "daylightOffsetSec": 0,
+  "autoNtp": true,
+  "autoBrowserSync": true,
+  "browserSyncThresholdSec": 30,
+  "watchdogEnabled": true,
+  "defaultBellDuration": 3000,
+  "defaultRepeatCount": 1,
+  "defaultRepeatInterval": 1000,
+  "wifi": {
+    "staSsid": "",
+    "staPassword": "",
+    "apSsid": "SmartBell-Setup",
+    "apPassword": "smartbell123"
+  }
+}
+
